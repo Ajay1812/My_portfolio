@@ -101,7 +101,7 @@ with st.container():
             # WhatsApp Chat Analyzer
             st.subheader('WhatsApp Chat Analyzer')
             st.write('A WhatsApp chat analyzer is a tool that allows you to analyze the messages in a WhatsApp chat and extract various statistics and insights from the data. This can be useful for understanding how a group of people communicate with each other.')
-            st.markdown("[GitHub](https://github.com/Ajay1812/Machine_Learning_Projects/tree/main/WhatsApp%20Chat%20Analysis)")
+            st.markdown("[GitHub](https://github.com/Ajay1812/WhatsApp_Chat_Analysis)")
 
             # Sales Analysis using PowerBi
             st.subheader('Sales Analysis using PowerBi')
