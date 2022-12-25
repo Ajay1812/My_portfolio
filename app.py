@@ -74,7 +74,7 @@ st.write('\n')
 st.subheader("Hard Skills")
 st.write(
     """
-- 👩‍💻 Programming: Python (Scikit-learn, Pandas), SQL
+- 👩‍💻 Programming: Python (Scikit-learn, Pandas), SQL, Streamlit
 - 📊 Data Visulization: PowerBi, MS Excel
 - 📚 Development: HTML, CSS, JavaScript, React JS, Streamlit
 - 🗄️ Databases: MySQL
