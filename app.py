@@ -101,24 +101,24 @@ with st.container():
             # WhatsApp Chat Analyzer
             st.subheader('WhatsApp Chat Analyzer')
             st.write('A WhatsApp chat analyzer is a tool that allows you to analyze the messages in a WhatsApp chat and extract various statistics and insights from the data. This can be useful for understanding how a group of people communicate with each other.')
-            st.markdown("[GitHub](https://github.com/Ajay1812/WhatsApp_Chat_Analysis)")
+            st.markdown("[Source Code 🔗](https://github.com/Ajay1812/WhatsApp_Chat_Analysis)")
 
             # Sales Analysis using PowerBi
             st.subheader('Sales Analysis using PowerBi')
             st.write('The purpose of the project was to better understand the customer base and identify trends in sales revenue. Sales data was collected from a company database covering a three-year period. Power BI was used to create visualizations, including bar charts, scatter plots, and maps, to analyze the data.')
-            st.markdown("[GitHub](https://github.com/Ajay1812/Machine_Learning_Projects/tree/main/PowerBi%20Dashboard)")
+            st.markdown("[Source Code 🔗](https://github.com/Ajay1812/Machine_Learning_Projects/tree/main/PowerBi%20Dashboard)")
             st.write('#')
 
             # Titanic Dataset Analysis
             st.subheader('Titanic Dataset Analysis')
             st.write('This repo presents my approach for the solution of the classical and most famous Titanic Dataset. This project marked the beginning of my Data science Journey and helped in Learning a lot.  EDA, Feature Generation and Modelling of Tabular Data                      ')
-            st.markdown("[GitHub](https://github.com/Ajay1812/Machine_Learning_Projects/tree/main/Titanic%20Dataset%20Analysis)")
+            st.markdown("[Source Code 🔗](https://github.com/Ajay1812/Machine_Learning_Projects/tree/main/Titanic%20Dataset%20Analysis)")
             st.write('#')
             
             # PoseNet - Posture Dection by Posenet
             st.subheader('Posture Dection by Posenet')
             st.write('Posenet can be used for posture detection by tracking the key points on a person body and estimating the pose based on the relative positions of these points. The model can detect a wide range of postures, including standing, sitting, walking, running, and more.')
-            st.markdown("[GitHub](https://github.com/Ajay1812/Machine_Learning_Projects/tree/main/PoseNet)")
+            st.markdown("[Source Code 🔗](https://github.com/Ajay1812/Machine_Learning_Projects/tree/main/PoseNet)")
 
 st.write('#')
 
