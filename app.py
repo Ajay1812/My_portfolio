@@ -30,7 +30,7 @@ img_posenet = Image.open('./images/Posenet.png')
 
 
 #---- lOAD RESUME PDF---#
-Resume_pdf = './assets/Ajay Kumar_Resume.pdf'
+Resume_pdf = './assets/Resume.pdf'
 
 
 
