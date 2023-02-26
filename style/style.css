@@ -14,9 +14,12 @@ a {
   font-style: italic;
 }
 
+
+
 a:hover {
   color: #d33682 !important;
   text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 h3#whatsapp-chat-analyzer{
   color: rgb(66, 207, 66);
@@ -30,6 +33,10 @@ h3#titanic-dataset-analysis{
 h3#posture-dection-by-posenet{
   color: rgb(66, 207, 66);
 }
+h3#generate-tags-and-article-with-chatgpt{
+  color: rgb(66, 207, 66);
+}
+
 
 
 
@@ -65,3 +72,4 @@ input[type=message], input[type=email], input[type=text], textarea {
   #MainMenu {visibility: hidden;}
   footer {visibility: hidden;}
   header {visibility: hidden;}
+
