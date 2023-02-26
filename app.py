@@ -27,6 +27,7 @@ img_WhatsApp_Chat = Image.open('./images/WhatsApp chat Analyzer.webp')
 img_PowerBi_Sales = Image.open('./images/power-BI.webp')
 img_titanic = Image.open('./images/Titanic Dataset Analysis.png')
 img_posenet = Image.open('./images/Posenet.png')
+img_chatGPT = Image.open('./images/openai-featured.jpg')
 
 
 #---- lOAD RESUME PDF---#
@@ -89,12 +90,13 @@ with st.container():
     st.write('---')
     st.header('PROJECTS')
     st.write('##')
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((1.1,3))
     with image_column:
         st.image(img_WhatsApp_Chat)
         st.image(img_PowerBi_Sales)
         st.image(img_titanic)
         st.image(img_posenet)
+        st.image(img_chatGPT)
 
 
         with text_column:
@@ -102,23 +104,35 @@ with st.container():
             st.subheader('WhatsApp Chat Analyzer')
             st.write('A WhatsApp chat analyzer is a tool that allows you to analyze the messages in a WhatsApp chat and extract various statistics and insights from the data. This can be useful for understanding how a group of people communicate with each other.')
             st.markdown("[Source Code 🔗](https://github.com/Ajay1812/WhatsApp_Chat_Analysis)")
+            st.write('#')
+            st.write('#')
 
             # Sales Analysis using PowerBi
             st.subheader('Sales Analysis using PowerBi')
             st.write('The purpose of the project was to better understand the customer base and identify trends in sales revenue. Sales data was collected from a company database covering a three-year period. Power BI was used to create visualizations, including bar charts, scatter plots, and maps, to analyze the data.')
             st.markdown("[Source Code 🔗](https://github.com/Ajay1812/Machine_Learning_Projects/tree/main/PowerBi%20Dashboard)")
             st.write('#')
+            
 
             # Titanic Dataset Analysis
             st.subheader('Titanic Dataset Analysis')
             st.write('This repo presents my approach for the solution of the classical and most famous Titanic Dataset. This project marked the beginning of my Data science Journey and helped in Learning a lot.  EDA, Feature Generation and Modelling of Tabular Data                      ')
             st.markdown("[Source Code 🔗](https://github.com/Ajay1812/Machine_Learning_Projects/tree/main/Titanic%20Dataset%20Analysis)")
             st.write('#')
+            st.write('#')
             
             # PoseNet - Posture Dection by Posenet
             st.subheader('Posture Dection by Posenet')
             st.write('Posenet can be used for posture detection by tracking the key points on a person body and estimating the pose based on the relative positions of these points. The model can detect a wide range of postures, including standing, sitting, walking, running, and more.')
             st.markdown("[Source Code 🔗](https://github.com/Ajay1812/Machine_Learning_Projects/tree/main/PoseNet)")
+            st.write('#')
+            st.write('#')
+
+            #img_chatGPT
+            st.subheader('GENERATE TAGS AND ARTICLE WITH CHATGPT')
+            st.write("I am writing an article about a particular startup, which will provide information about its founder and relevant tags based on the startup's name.")
+            st.markdown("[Source Code 🔗](https://github.com/Ajay1812/Machine_Learning_Projects/tree/main/Gen_Tags_Article_ChatGPT)")
+
 
 st.write('#')
 
@@ -160,3 +174,4 @@ with st.container():
         st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
         st.empty()
+
